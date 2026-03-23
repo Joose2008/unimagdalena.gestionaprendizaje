@@ -39,6 +39,7 @@ public class AssessmentRepositoryTest extends AbstractRepositoryIT{
         // Pruebas
 
         assertThat(assRep.findAssessmentsByType("Quiz")).isNotEmpty();
+        assertThat(assRep.findAssessmentsByType("Quiz").getFirst().getScore()).isEqualTo(15);
         assertThat(assRep.findAssessmentsByType("Homework")).hasSize(1);
         assertThat(assRep.findAssessmentsByType("Homework").getFirst().getType()).isEqualTo("Homework");
     }
