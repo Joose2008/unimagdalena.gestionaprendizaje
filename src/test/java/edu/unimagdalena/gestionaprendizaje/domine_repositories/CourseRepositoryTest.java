@@ -1,19 +1,17 @@
 package edu.unimagdalena.gestionaprendizaje.domine_repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Course;
-import edu.unimagdalena.gestionaprendizaje.Entities.Instructor;
-import edu.unimagdalena.gestionaprendizaje.Entities.Lesson;
-import edu.unimagdalena.gestionaprendizaje.repositories.CourseRepository;
-import edu.unimagdalena.gestionaprendizaje.repositories.InstructorRepository;
-import edu.unimagdalena.gestionaprendizaje.repositories.LessonRepository;
-import org.assertj.core.api.Assertions;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Course;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Instructor;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Lesson;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.CourseRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.InstructorRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.LessonRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Set;
 
-import static org.assertj.core.api.Assertions.*;
 import static  org.assertj.core.api.Assertions.assertThat;
 public class CourseRepositoryTest extends AbstractRepositoryIT{
 

@@ -1,4 +1,4 @@
-package edu.unimagdalena.gestionaprendizaje.Entities;
+package edu.unimagdalena.gestionaprendizaje.domine.Entities;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,9 +1,9 @@
 package edu.unimagdalena.gestionaprendizaje.domine_repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Enrollment;
-import edu.unimagdalena.gestionaprendizaje.Entities.Student;
-import edu.unimagdalena.gestionaprendizaje.repositories.EnrollmentRepository;
-import edu.unimagdalena.gestionaprendizaje.repositories.StudentRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Enrollment;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Student;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.EnrollmentRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.StudentRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

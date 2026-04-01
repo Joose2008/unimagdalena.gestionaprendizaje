@@ -1,6 +1,6 @@
-package edu.unimagdalena.gestionaprendizaje.repositories;
+package edu.unimagdalena.gestionaprendizaje.domine.repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Lesson;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Lesson;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
