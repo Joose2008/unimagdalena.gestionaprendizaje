@@ -1,7 +1,6 @@
-package edu.unimagdalena.gestionaprendizaje.repositories;
+package edu.unimagdalena.gestionaprendizaje.domine.repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.InstructorProfile;
-import org.springframework.beans.factory.annotation.Autowired;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.InstructorProfile;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

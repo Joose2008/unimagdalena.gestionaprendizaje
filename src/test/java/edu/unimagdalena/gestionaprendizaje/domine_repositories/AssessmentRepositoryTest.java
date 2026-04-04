@@ -1,18 +1,14 @@
 package edu.unimagdalena.gestionaprendizaje.domine_repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Assessment;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Assessment;
 
-import java.time.Instant;
-import java.util.List;
-
-import edu.unimagdalena.gestionaprendizaje.Entities.Student;
-import edu.unimagdalena.gestionaprendizaje.repositories.AssessmentRepository;
-import edu.unimagdalena.gestionaprendizaje.repositories.StudentRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Student;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.AssessmentRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.StudentRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class AssessmentRepositoryTest extends AbstractRepositoryIT{

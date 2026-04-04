@@ -1,10 +1,10 @@
 package edu.unimagdalena.gestionaprendizaje.domine_repositories;
 
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Instructor;
-import edu.unimagdalena.gestionaprendizaje.Entities.InstructorProfile;
-import edu.unimagdalena.gestionaprendizaje.repositories.InstructorProfileRepository;
-import edu.unimagdalena.gestionaprendizaje.repositories.InstructorRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Instructor;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.InstructorProfile;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.InstructorProfileRepository;
+import edu.unimagdalena.gestionaprendizaje.domine.repositories.InstructorRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package edu.unimagdalena.gestionaprendizaje.repositories;
+package edu.unimagdalena.gestionaprendizaje.domine.repositories;
 
-import edu.unimagdalena.gestionaprendizaje.Entities.Assessment;
+import edu.unimagdalena.gestionaprendizaje.domine.Entities.Assessment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
